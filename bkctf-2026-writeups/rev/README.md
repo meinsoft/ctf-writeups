@@ -43,17 +43,6 @@ The `strings` tool pulls out every readable ASCII string from a binary:
 strings supercool
 ```
 
-We get a wall of output. System library names, random symbols, and among them some suspicious words:
-
-```
-supercool
-verycool
-so cool
-...
-```
-
-Interesting. But we need the flag specifically.
-
 ---
 
 ## Step 3 — Filter with grep
